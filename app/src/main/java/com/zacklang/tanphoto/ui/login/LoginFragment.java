@@ -1,4 +1,4 @@
-package com.zacklang.tanphoto.ui.guide;
+package com.zacklang.tanphoto.ui.login;
 
 import androidx.lifecycle.ViewModelProviders;
 import android.os.Bundle;
@@ -11,10 +11,10 @@ import android.view.ViewGroup;
 import com.zacklang.tanphoto.R;
 import com.zacklang.tanphoto.viewmodel.LoginViewModel;
 
-public class GuideFragment extends Fragment {
+public class LoginFragment extends Fragment {
 
-    public static GuideFragment newInstance() {
-        return new GuideFragment();
+    public static LoginFragment newInstance() {
+        return new LoginFragment();
     }
 
     private LoginViewModel mViewModel;

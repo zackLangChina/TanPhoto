@@ -6,8 +6,18 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
         //应用启动白屏问题
         <item name="android:windowBackground">@color/windowBG</item>
+        <item name="android:windowAnimationStyle">@style/enter_out_style</item>
+
     </style>
 
+    <!--activity出现消失样式-->
+    <style name="enter_out_style" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/out_from_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/in_from_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/out_from_right</item>
+    </style>
 </resources>

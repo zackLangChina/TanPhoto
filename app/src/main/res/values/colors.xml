@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="windowBG">#03B4D3D0</color>
+
+    <color name="colorApp">#63B8FF</color>
 </resources>
