@@ -1,5 +1,6 @@
 package com.zacklang.tanphoto.ui.login;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -12,6 +13,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.zacklang.tanphoto.R;
 import com.zacklang.tanphoto.databinding.LoginActivityBinding;
+import com.zacklang.tanphoto.ui.browse.BrowseActivity;
 import com.zacklang.tanphoto.viewmodel.LoginViewModel;
 
 public class LoginActivity extends AppCompatActivity {
@@ -32,6 +34,12 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(this, "用户名或密码不完整", Toast.LENGTH_SHORT).show();
             return;
         }
-        Toast.makeText(this, "HELLO !!!!", Toast.LENGTH_SHORT).show();
+        jumToBrowse();
+    }
+
+    private void jumToBrowse() {
+        Intent intent = new Intent(this, BrowseActivity.class);
+        startActivity(intent);
+        finish();
     }
 }
