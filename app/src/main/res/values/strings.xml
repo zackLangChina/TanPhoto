@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">TanPhoto</string>
     <string name="skip_welcome">跳过</string>
+
+    <string name="login_desc">请输入用户名密码</string>
+    <string name="user_name">请输入用户名</string>
+    <string name="user_password">请输入密码</string>
+    <string name="login">登录</string>
 </resources>
