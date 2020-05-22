@@ -20,7 +20,6 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@mipmap/about"
             tools:layout_editor_absoluteX="180dp"
             tools:layout_editor_absoluteY="340dp" />
 
@@ -30,7 +29,7 @@
             android:layout_height="wrap_content"
             android:text="@string/loading_hint"
             android:textColor="@color/textPink"
-            android:textSize="80dp"
+            android:textSize="80sp"
             app:visibleGone="@{isLoading}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

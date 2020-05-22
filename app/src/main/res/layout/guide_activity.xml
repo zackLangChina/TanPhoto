@@ -25,15 +25,17 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:visibility="@{enter_visiable}"
-            android:textSize="18sp"
-            android:textColor="@color/colorApp"
             android:onClick="enterClick"
             android:text="立即体验"
+            android:textColor="@color/colorApp"
+            android:textSize="30sp"
+            android:visibility="@{enter_visiable}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.687" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

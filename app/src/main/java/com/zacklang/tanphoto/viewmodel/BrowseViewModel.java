@@ -19,7 +19,6 @@ public class BrowseViewModel extends ViewModel {
     public MutableLiveData<Uri> picUri = new MutableLiveData<>();
 
     public BrowseViewModel() {
-        //从网络获取图片
         requestPhoto();
     }
 
@@ -27,7 +26,10 @@ public class BrowseViewModel extends ViewModel {
         return picUri;
     }
 
-    private void requestPhoto() {
+    /**
+     * 从网络获取图片
+     */
+    public void requestPhoto() {
         DataRepository.getRandomPics(1, new Observer<GetPhotos>() {
             @Override
             public void onSubscribe(Disposable d) {
