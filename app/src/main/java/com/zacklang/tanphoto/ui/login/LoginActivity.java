@@ -9,6 +9,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.databinding.library.baseAdapters.BR;
+import androidx.lifecycle.MutableLiveData;
+import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.zacklang.tanphoto.R;
@@ -23,7 +25,6 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.login_activity);
         databinding = DataBindingUtil.setContentView(this,R.layout.login_activity);
         vm = new ViewModelProvider(this).get(LoginViewModel.class);
         databinding.setVariable(BR.vm_login,vm);

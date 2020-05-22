@@ -11,4 +11,5 @@ public class GuideViewModel extends ViewModel {
 
     public int[] getmGuideImages() {
         return mGuideImages;
-    }}
+    }
+}

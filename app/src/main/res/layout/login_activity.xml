@@ -37,10 +37,11 @@
             android:ems="10"
             android:hint="@string/user_name"
             android:inputType="textPersonName"
-            android:text="@{vm_login.name}"
+            android:text="@={vm_login.name}"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
+        <!-- 注意要写@={} ，多一个=号才能双向绑定 -->
         <EditText
             android:id="@+id/password"
             android:layout_width="wrap_content"
@@ -50,7 +51,7 @@
             android:ems="10"
             android:hint="@string/user_password"
             android:inputType="textPassword"
-            android:text="@{vm_login.password}"
+            android:text="@={vm_login.password}"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/name" />
 
