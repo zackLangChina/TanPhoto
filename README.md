@@ -8,4 +8,4 @@ MVVM+Livedata+retrofit+Rxjava看妹子图小demo
 
 
 ![探图app用例](https://upload-images.jianshu.io/upload_images/12785397-b1063be01fa35066.jpg?imageMogr2)
-![探图app架构图](https://upload-images.jianshu.io/upload_images/12785397-704248110d413dc6.jpg?imageMogr2)
+![探图app架构图](https://upload-images.jianshu.io/upload_images/12785397-a625d8e3524a0afd.jpg?imageMogr2)
