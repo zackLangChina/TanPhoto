@@ -69,7 +69,6 @@ public class BrowseFragment extends Fragment {
                     });
                 }else {
                     mBinding.setIsLoading(true);
-                    mBinding.imageView.setImageBitmap(BitmapFactory.decodeResource(getResources(),R.mipmap.about));
                 }
             }
         });
