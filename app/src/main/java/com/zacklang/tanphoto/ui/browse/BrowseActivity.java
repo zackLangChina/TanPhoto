@@ -97,7 +97,6 @@ public class BrowseActivity extends AppCompatActivity {
         findViewById(R.id.dislike).startAnimation(scaleAnimation);
     }
 
-
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
 

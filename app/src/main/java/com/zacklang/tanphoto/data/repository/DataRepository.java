@@ -6,7 +6,6 @@ import com.zacklang.tanphoto.data.http.RetrofitFactory;
 
 import io.reactivex.Observable;
 import io.reactivex.Observer;
-import io.reactivex.Scheduler;
 import io.reactivex.schedulers.Schedulers;
 
 /**

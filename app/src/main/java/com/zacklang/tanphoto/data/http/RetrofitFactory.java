@@ -1,12 +1,7 @@
 package com.zacklang.tanphoto.data.http;
 
-import com.bumptech.glide.Glide;
-import com.zacklang.tanphoto.AppApplication;
 import com.zacklang.tanphoto.util.GlideUtil;
 
-import java.io.File;
-
-import okhttp3.Cache;
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
